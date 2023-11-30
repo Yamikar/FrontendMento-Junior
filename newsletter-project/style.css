@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap'); 
+
+
+body{
+    background: hsl(234, 29%, 20%);
+
+}
+
+.container{
+    top: 20px;
+    left: 200px;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background:hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.img-box{
+    border-radius: 20px;
+    top: -400px;
+    left: 440px;
+    position: relative;
+    width: 350px;
+    height: 480px;
+    background: orange;
+}
+  
+  
+  
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+     font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45;
+    top: 100px;
+    position: relative;
+    left: 80px;
+}
+
+.text-1{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    left:80px;
+    top: 80px;
+    position: relative;
+    font-size: 16px;
+    }
+
+    .icon{
+        left: 79px;
+        top: 75px;
+        display: grid;
+        position: relative;
+    }
+    .text{
+        font-family: 'Epilogue', sans-serif;
+         font-family: 'Fraunces', serif;
+         font-family: 'Inter', sans-serif;
+         font-family: 'Karla', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        left: 120;
+        top: -41;
+        position: relative;
+    }
+    input{
+        left: 75px;
+        position: relative;
+        height: 50px;
+        width: 350px;
+        border-radius: 10px;
+        border: 1px solid hsl(231, 7%, 60%);
+    }
