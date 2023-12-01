@@ -1,5 +1,7 @@
 
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap'); 
@@ -14,20 +16,19 @@ body{
     top: 20px;
     left: 200px;
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 850px;
+    height: 550px;
     background:hsl(0, 0%, 100%);
     border-radius: 20px;
 }
 
 .img-box{
     border-radius: 20px;
-    top: -400px;
-    left: 440px;
+    top: -380px;
+    left: 480px;
     position: relative;
     width: 350px;
-    height: 480px;
-    background: orange;
+    height: 500px;
 }
   
   
@@ -41,9 +42,9 @@ h1{
     font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 45;
-    top: 100px;
+    top: 50px;
     position: relative;
-    left: 80px;
+    left: 70px;
 }
 
 .text-1{
@@ -54,14 +55,14 @@ h1{
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
-    left:80px;
-    top: 80px;
+    left:70px;
+    top: 40px;
     position: relative;
     font-size: 16px;
     }
 
     .icon{
-        left: 79px;
+        left: 70px;
         top: 75px;
         display: grid;
         position: relative;
@@ -74,15 +75,87 @@ h1{
         font-family: 'Libre Franklin', sans-serif;
         font-family: 'Outfit', sans-serif;
         font-family: 'Roboto', sans-serif;
-        left: 120;
-        top: -41;
+        left: 100px;
+        top: -37;
         position: relative;
     }
     input{
-        left: 75px;
+        left: 70px;
         position: relative;
         height: 50px;
         width: 350px;
         border-radius: 10px;
         border: 1px solid hsl(231, 7%, 60%);
+    }
+
+    button{
+        color: hsl(0, 0%, 100%);
+        font-family: 'Epilogue', sans-serif;
+         font-family: 'Fraunces', serif;
+         font-family: 'Inter', sans-serif;
+         font-family: 'Karla', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        height: 50px;
+        width: 350px;
+        left: 70px;
+        top:-470px;
+        position: relative;
+        border-radius:10px;
+        border: none;
+        background: hsl(235, 18%, 26%);
+    }
+
+
+    .ads{
+        border-radius:10px ;
+        width: 350px;
+        height: 500px;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    /* submit page is here */
+
+    .info-box{
+        border-radius: 25px;
+        top: 100px;
+        left: 300px;
+        position: relative;
+        background-color: white;
+        height: 400px;
+        width: 400px;
+    }
+
+    .pps{
+        top: 30px;
+        left: 50px;
+        position: relative;
+    }
+
+    .vip-text{
+        position: relative;
+        top: 15px;
+        left: 52px;
+    }
+
+    .bg-icon{
+        left: 40px;
+        top: 40px;
+        position: relative;
+    }
+
+    .bxt{
+        background: hsl(235, 18%, 26%);
+        left: 49px;
+        top: 20px;
+        position: relative;
+        color: white;
+        height: 50px;
+        width: 330px;
     }
