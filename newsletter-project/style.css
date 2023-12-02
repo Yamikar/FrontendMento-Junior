@@ -159,3 +159,107 @@ h1{
         height: 50px;
         width: 330px;
     }
+
+ /* media code is here  index.html*/
+
+    @media (max-width:375px) {
+        
+        .container{ 
+
+        height: 700px;
+        width: 400px;
+        }
+
+        button{
+
+            left: 30px;
+            top:-280;
+            position: relative;
+        }
+
+        input{
+
+            left:30px ;
+            position: relative;
+            top: 200px;
+        }
+        
+    }
+
+    /* mobile text here*/
+    @media (max-width:375px) {
+
+        .icon{
+
+            left: 30px;
+            position: relative;
+            top: 290px;
+        }
+        .text{ 
+
+            left: 70px;
+            top: 175px;
+            position: relative;
+        }
+
+        .text-1{
+
+            left: 30px;
+            top: 285px;
+            position: relative;
+        }
+        h1{
+
+            left: 30px;
+            top:300px;
+            position: relative;
+        }
+
+        .img-box{
+        position: relative;
+        left: 0px;
+        width: 200;
+        }
+        .ads{
+
+            top: -30;
+            position: relative;
+            height: 300px;
+            width: 400px;
+        }
+    }
+
+    
+/* submit.html is here */
+
+@media (max-width:375px) {
+    .info-box{
+        height: 100%;
+        width: 375px;
+    }
+
+    .bxt{
+        left: 20px;
+        top: 200px;
+        position: relative;
+    }
+    .vip-text{
+        font-size: 20px;
+        left: 20px;
+        top: 100px;
+        position: relative;
+    }
+    .pps{
+        left: 20px;
+        top:60;
+        position: relative;
+    }
+    .bg-icon{
+        left: 20px;
+        position: relative;
+    }
+}
+
+
+
+
