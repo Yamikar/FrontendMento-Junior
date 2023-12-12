@@ -1,0 +1,128 @@
+
+/*import font size is here*/
+
+
+
+
+
+
+/*used is font familly */
+
+body{
+    background: #FAFAFA;
+}
+
+
+
+
+header{
+    margin-top: -10;  
+    border: 0;
+    padding: 0;
+    background: hsl(13, 100%, 72%);
+    height: 400px;
+    width: 100%;
+    border-radius: 0px 0px 0px 70px;
+}
+
+
+
+ol , li{ 
+    padding-top: 10px;
+    margin: 0;;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin-right:20px;
+
+}
+
+
+#end-box{
+    color: hsl(353, 100%, 62%);
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+
+
+h1 , p{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+
+.btn-1{
+   
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    color: hsl(353, 100%, 62%);
+    background: white;
+}
+
+.btn-2{
+    background:  hsl(13, 100%, 72%);
+    width:100px;
+    height: 30px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.title{
+    color:hsl(208, 49%, 24%);
+}
+.cap{
+    font-size: 16px;
+   text-align: start;
+   color:#888B8E;
+}
+
+.logo{
+    height: 30;
+    width: 65px;
+}
+h2{
+    color: hsl(208, 49%, 24%);
+}
+
+.arw{
+    left: 4px;
+    top: 7px;
+    position: relative;
+    height:5px;
+    width: 10px;
+}
+
+.phones{
+    background-color: #303145;
+    width: 100%;
+    height: 300px;
+    border-radius:0px 50px 0px 50px ;
+}
+.phone{
+    height: 400px;
+    width: 390px;
+    position: relative;
+    left: 30;
+    top: -75;
+}
+.phn-text{
+    top: 65px;
+    left: 200px;
+    position: relative;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+
+.vip-text{
+    text-align-last: left;
+    font-size: 17px;
+    left:490px;
+    top: -350;
+    position: relative;
+    color:hsl(0, 0%, 100%);
+}
