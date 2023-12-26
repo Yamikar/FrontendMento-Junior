@@ -1,81 +1,178 @@
-.orange{
-    padding: 0;
-    margin: 0;
-    background: url(images/desktop/image-header.jpg);
+
+
+.top-content{
+    background:url(images/desktop/image-header.jpg);
+    height: 600px;
     width: 100%;
-    height: 700px;
-    background-size: cover;
+    background-size:cover
 }
 
-ol , li {
-    margin-left: 40px;
-    justify-content: end;
+
+
+.trasform{
+    background: green;
+    height: 500px;
+    width: 100%;
+}
+
+
+.stand-up{
+    background: rgb(240, 74, 204);
+    height:500px;
+    width: 100%;
+
+}
+
+
+.two-images{
+    background: orange;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.testominal{
+    background: hsl(0, 0%, 100%);
+    height: 600px;
+    width: 100%;
+}
+
+
+
+.four-images{
     display: flex;
-    color: white;
+    background: red;
+    height: 300px;
+    width: 100%;
 }
 
-.egg{
-    top: -450px;
-    left:705px;
+
+
+footer{
+    background: #90D4C5;
+    height: 300px;
+    width: 100%;
+}
+
+
+.four-images , img{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+img{
+    width: 100px;
+    height: 350px;
+}
+/*box is here left - right  !!!!!*/
+
+
+
+
+
+
+.left-0{
+    background-size: contain;
+    background-repeat: no-repeat;;
+    height: 500px;
+    width: 800px;
     background-size: cover;
-    height: 450px;
-    width: 718px;
-    background: url(images/desktop/image-transform.jpg);
-    position: relative;
-}
-.text-1{
-    position: relative;
-    background-color: pink;
-    width: 705px;
-    height: 450px;
-
+    background-color: hsl(0, 0%, 100%);
 }
 
-.pink-cup{
-    top: -450px;
-    position: relative;
-    height: 450px;
-    width: 705px;
+
+
+.left-1{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    background-size: cover;
     background: url(images/desktop/image-stand-out.jpg);
 }
 
-.text-2{
-    position: relative;
-    background-color: rgb(192, 201, 255);
-    width: 718px;
-    height: 450px;
-    top: -900px;
-    left: 705px;
 
-}
-.cherry{
-    top: -900px;
-    width: 705px;
-    height: 450px;
+.left-2{
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    background-size: cover;
     background: url(images/desktop/image-graphic-design.jpg);
-    position: relative;
 }
-.org{
-    left: 705px;
-    top: -1350px;
-    width: 718px;
-    height: 450px;
-    background: url(images/desktop/image-photography.jpg);
+
+
+/* right box is here now */
+
+
+.right-0{
+    height: 500px;
+    width: 770px;
+    background-color: hsl(0, 0%, 100%);
+    left: 51%;
     position: relative;
 }
 
-.humans{
-    top: -1400px;
+.right-2{
+    top: -500px;
+    background-size: cover;
+    height: 500px;
+    width: 770px;
+    background:url(images/desktop/image-photography.jpg);
+    left: 51%;
     position: relative;
-    background: orange;
-    height: 400px;
-    width: 100%;
 }
-.mini-images{
-    background-color: purple;
-    height: 200px;
-    width: 100%;
-    border: 5px solid red;
-    position: relative;
-    top: -1500;
+
+
+
+
+/*details here*/
+
+
+h1{
+
+    color: white;
+    text-align: center;
 }
+
+
+p{
+    font-size: 16px;
+}
+
+
+ol , li {
+    margin-top: 10px;
+    justify-content: end;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ad , .ft  {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    margin-left: 30px;
+    color: green;
+}
+
+
+
+.ad:hover{
+    color: white;
+}
+
+
+/*resporsive 375px width code mobile digsean used*/
+
+
