@@ -1,0 +1,127 @@
+
+
+nav{
+    margin-left:-20;
+   
+}
+
+
+ol , li  {
+    padding-top:10px;
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    justify-content: end;
+}
+
+ol{
+    margin-right:200px ;
+}
+
+
+.container , .container-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    font-weight: 400;
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    color:hsl(36, 100%, 99%) ;
+    font-size: 15px;
+}
+
+
+.News-box{
+    margin-left: 30px;
+    width:330px;
+    height:550px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+h3{
+  margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    color:hsl(36, 100%, 99%) ;
+}
+
+.gold-text{
+    margin-left: 15px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color:  hsl(35, 77%, 62%);
+}
+
+
+img{
+    height:300px;
+    width: 700px;
+}
+
+
+a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.ads{
+    margin-left:15%;
+    margin-top: -15%;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-align: start;
+    font-weight: 800;
+    color:hsl(240, 100%, 5%);
+}
+
+
+
+.text{
+    font-family: 'Inter', sans-serif;
+    top: 52%;
+    left: 40%;
+    position:absolute;
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+}
+
+.logo{
+    left: 200px;
+    position:absolute;
+    height: 30px;
+    width: 50px;
+}
+
+
+button{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    top: 68%;
+    left: 41%;
+    color: white;
+    background: hsl(5, 85%, 63%);
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+
+/*hover code is here */
+
+
+a:hover{
+   color:hsl(5, 85%, 63%)
+}
+h3:hover{
+    color:  hsl(35, 77%, 62%);
+}
+button:hover{
+    background: hsl(240, 100%, 5%);
+}
