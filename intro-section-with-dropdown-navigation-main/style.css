@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Epilogue", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(0, 0%, 98%);
+}
+
+ol,
+li {
+  margin-left: 30px;
+  padding: 10px;
+  display: flex;
+}
+
+p {
+  font-weight: 500;
+  font-family: "Epilogue", sans-serif;
+  text-align: start;
+  color: hsl(0, 0%, 41%);
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  background: hsl(0, 0%, 8%);
+  color: white;
+}
+
+.container {
+  margin-top: -40px;
+  margin-left: 120px;
+  align-items: end;
+  gap: 20px;
+  display: flex;
+}
+
+.container-main {
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+  gap: 60px;
+}
+
+.img-box {
+  height: 500px;
+  width: 500px;
+}
+
+.section-1 {
+  justify-content: space-around;
+  display: flex;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+  font-size: 70px;
+}
+
+/* hover and responsive code*/
+
+button:hover {
+  color: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+#card {
+  position: absolute;
+  z-index: 3;
+  display: none;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+
+.mobile-image {
+  display: none;
+}
+
+/* mobile code is here*/
+
+@media screen and (max-width: 720px) {
+  .img-box {
+    display: none;
+  }
+  ol,
+  li {
+    display: none;
+  }
+  h1,
+  p {
+    text-align: center;
+  }
+  .mobile-image {
+    display: flex;
+  }
+  .section-1 {
+    flex-direction: column;
+  }
+  .container {
+    justify-content: center;
+    margin-top: 20px;
+    margin: 0;
+  }
+  .logo {
+    margin-top: 10px;
+    width: 70px;
+    gap: 0;
+  }
+  .container-main {
+    gap: 0;
+    display: flex;
+  }
+  .btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .navbar {
+    display: flex;
+  }
+}
+
+.navbar {
+  justify-content: end;
+}
