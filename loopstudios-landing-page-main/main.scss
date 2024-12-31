@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --BlackMain: hsl(0, 0%, 0%);
+  --backgorund: hsl(0, 0%, 100%);
+  --VeryDarkGray: hsl(0, 0%, 41%);
+  --DarkGray: hsl(0, 0%, 55%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  background-color: orange;
+  height: 400px;
+  width: 250px;
+}
+
+footer {
+  margin-top: 170px;
+  height: 100px;
+  width: 100%;
+  background: var(--BlackMain);
+}
+
+.container-2 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.vr-image {
+  margin-right: 300px;
+  background: url(images/desktop/image-interactive.jpg);
+  width: 700px;
+  height: 400px;
+}
+
+h2 {
+  font-weight: 300;
+  font-family: "Josefin Sans", serif;
+  font-size: 50px;
+}
+h3 {
+  font-weight: 300;
+  font-family: "Josefin Sans", serif;
+  font-size: 50px;
+}
+nav,
+ol,
+li {
+  justify-content: end;
+  color: var(--backgorund);
+  gap: 20px;
+  display: flex;
+}
+
+header {
+  background: url(images/desktop/image-hero.jpg);
+  height: 500px;
+  width: 100%;
+}
+
+p {
+  color: var(--VeryDarkGray);
+}
+
+button {
+  height: 40px;
+  width: 130px;
+  border: 2px solid var(--BlackMain);
+  background-color: white;
+  color: var(--BlackMain);
+}
+
+h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 300;
+  font-family: "Josefin Sans", serif;
+  text-align: start;
+  font-size: 55px;
+  color: var(--backgorund);
+}
+
+.main-box {
+  margin-left: 50px;
+  margin-top: 100px;
+  height: 200px;
+  width: 500px;
+  border: 1px solid white;
+  background: none;
+}
+
+button:hover {
+  color: var(--backgorund);
+  background: var(--BlackMain);
+}
+
+.card-1 {
+  background: url(images/desktop/image-deep-earth.jpg);
+}
+.card-2 {
+  background: url(images/desktop/image-night-arcade.jpg);
+}
+.card-3 {
+  background: url(images/desktop/image-soccer-team.jpg);
+}
+.card-4 {
+  background: url(images/desktop/image-grid.jpg);
+}
+.card-5 {
+  background: url(images/desktop/image-from-above.jpg);
+}
+.card-6 {
+  background: url(images/desktop/image-pocket-borealis.jpg);
+}
+.card-7 {
+  background: url(images/desktop/image-curiosity.jpg);
+}
+.card-8 {
+  background: url(images/desktop/image-fisheye.jpg);
+}
+
+.card:hover {
+  filter: blur(4px);
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 50px;
+  font-family: "Josefin Sans", serif;
+  color: white;
+  text-align: center;
+}
+h5:hover {
+  color: black;
+}
+
+.container-3 {
+  margin-top: 100px;
+  gap: 50px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.text-box {
+  z-index: 1;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 200px;
+  background-color: white;
+  height: 400px;
+  width: 500px;
+}
+//mobile code is here//
+
+@media (max-width: 375px) {
+  body {
+    background-color: red;
+  }
+}
